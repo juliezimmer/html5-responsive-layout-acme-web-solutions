@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- name="viewport' sets the width of the template of the website -->
+  <!-- content="width=device-width sets the width to the width of whatever device is being used to view the page. --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="web design, affordable web design, professional web design">
+  <meta name="author" content="Julie Zimmer">
+  <title>Acme Web Design | Services</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body>
+    <!-- HEADER Section -->
+    <header>
+      <!-- this div container contains the nav section and the brand name -->
+      <div class="container">
+        <!-- this div contains the brand name -->
+        <div id="branding">
+          <h1><span class="highlight">Acme</span> Web Design</h1>
+        </div> <!-- end branding -->
+
+        <!-- navigation -->
+        <nav> 
+          <ul>
+            <!-- this is the Home page link.  The a tag href points to the page that should be loaded for the Home page, which is index.html. THe same applies to the other li tags with a tags and their respective hrefs.-->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div> <!-- end container -->
+    </header> <!-- end header -->
+
+    <!-- NEWSLETTER Section -->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button_1">Subscribe</button>
+
+        </form>
+      </div>
+    </section> <!-- end newsletter -->
+
+    <!-- MAIN SECTION -->
+    <section id="main">
+      <div class="container">
+       <article id="main-col">
+         <h1 class="page-title">Services Offered at Acme Web Design</h1>
+          <ul id="services">
+            <li>
+              <h3>Website Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quaerat facilis placeat recusandae sed incidunt, deserunt a molestias consectetur nulla quas accusantium eum. Consequatur, explicabo.</p>
+                <p>Pricing: $1,000 - $3,000</p>
+            </li>
+
+            <li>
+              <h3>Website Maintenance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quaerat facilis placeat recusandae sed incidunt, deserunt a molestias consectetur nulla quas accusantium eum. Consequatur, explicabo.</p>
+                <p>Pricing: $250/month</p>
+            </li>
+
+            <li>
+              <h3>Website Hosting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quaerat facilis placeat recusandae sed incidunt, deserunt a molestias consectetur nulla quas accusantium eum. Consequatur, explicabo.</p>
+                <p>Pricing: $25/month</p>
+              </li>
+
+          </ul>
+        </article>  <!-- end article -->
+      
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get a Quote</h3>
+            <form action="" class="quote">
+              <!-- name -->
+              <div> 
+                <label for="name">Name</label>
+                <input type="text" placeholder="Name">
+              </div> <!-- end name -->
+              
+              <!-- email -->
+              <div> 
+                <label for="email">Enail</label><br>
+                <input type="text" placeholder="Email Address">
+              </div> <!-- end email -->
+              
+              <!-- message -->
+              <div>
+                <label for="Message">Message</label><br>
+                <textarea placeholder="Message"></textarea>
+              </div> <!-- end message -->
+              <button class="button_1">Send</button>
+            </form> <!-- end form -->
+          </div> <!-- end dark div -->
+        </aside> <!-- end aside -->
+      </div> <!-- end container -->
+    </section> <!-- end section -->
+
+    <!-- Footer section -->
+    <footer>
+      <p>Acme Web Design, Copyright &copy; 2017</p>
+    </footer> <!-- end footer -->
+  </body>
+</html>

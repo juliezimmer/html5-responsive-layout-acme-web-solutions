@@ -31,6 +31,14 @@ ul {
   color: #fff;
 }
 
+.dark {
+  padding: 15px;
+  background: #35424A;
+  opacity: 0.85;
+  color: #FFF;
+  margin: 10px 0 10px 0;
+}
+
 /************* Header *************/
 header {
   background-color: #35424a;
@@ -87,6 +95,7 @@ header a:hover {
   background: url('../images/showcase.jpg') no-repeat 0 -400px;
   text-align: center;
   color: #fff;
+  border-bottom: #e8491d 3px solid;
 }
 
 /* styles h1 tags in showcase */
@@ -106,7 +115,7 @@ showcase p {
   padding: 15px;
   color: #fff;
   background:#35424a;
-  border: #e8491d 3px solid;
+  border-bottom: #e8491d 3px solid;
 }
 
 /* styles h1 in newsletter section */
@@ -146,11 +155,38 @@ showcase p {
   height: auto;
 }
 
-/************* FOOTER **************/
+/*********** SIDEBAR ************/
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+} 
+
+/*********** ARTICLE ***********/
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/*********** SERVICES *************/
+ul#services li {
+  list-style: none; 
+  padding: 20px;
+  border:#e8491d solid 1px;
+  margin-bottom: 5px;
+  background: #c5c4c4;
+}
+
+/*********** FOOTER ************/
 footer {
   padding: 20px;
   margin-top: 20px;
-  color: #fff;
+  color: white; 
   background-color: #e8491d; 
   text-align: center;
 }
