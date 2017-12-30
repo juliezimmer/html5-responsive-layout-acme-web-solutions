@@ -9,10 +9,76 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="keywords" content="web design, affordable web design, professional web design">
   <meta name="author" content="Julie Zimmer">
-  <title>Acme Web Solutions | Welcome</title>
+  <title>Acme Web Design | Welcome</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
   <body>
-  
+    <!-- HEADER Section -->
+    <header>
+      <!-- this div container contains the nav section and the brand name -->
+      <div class="container">
+        <!-- this div contains the brand name -->
+        <div id="branding">
+          <h1>Acme Web Design</h1>
+        </div> <!-- end branding -->
+        <nav>
+          <ul>
+            <!-- this is the Home page link.  The a tag href points to the page that should be loaded for the Home page, which is index.html. THe same applies to the other li tags with a tags and their respective hrefs.-->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div> <!-- end container -->
+    </header> <!-- end header -->
+
+    <!-- the SHOWCASE Section -->
+    <section id="showcase">
+      <div class="container">
+        <h1>Affordable Professional Web Design Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur quisquam aliquam dignissimos perferendis dolorum!</p>
+      </div> <!-- end container -->
+    </section> <!-- end showcase -->
+
+    <!-- NEWSLETTER Section -->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button_1">Subscribe</button>
+
+        </form>
+      </div>
+    </section> <!-- end newsletter -->
+
+    <!-- Logo/Icon section -->
+    <section id="boxes">
+      <div class="container">
+        <!-- HTML5 box-->
+        <div class="box"> 
+          <img src="./images/logo_html.png" alt="HTML5 logo">
+          <h3>HTML5 Markup</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, magnam!</p>
+        </div>
+        <!--CSS3 box-->
+        <div class="box">
+          <img src="./images/logo_css.png" alt="CSS3 logo">
+          <h3>CSS3 Styling</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellendus.</p>
+        </div>
+        <!-- Graphic Design box-->
+        <div class="box">
+          <img src="./images/logo_brush.png" alt="computer with brush">
+          <h3>Grahic Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, consequuntur.</p>
+        </div>
+      </div> <!-- end container -->
+    </section> <!-- end section -->
+
+    <!-- Footer section -->
+    <footer>
+      <p>Acme Web Design, Copyright &copy; 2017</p>
+    </footer> <!-- end footer -->
   </body>
 </html>
