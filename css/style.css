@@ -1,4 +1,4 @@
-/* core body styles for anything in the body tag */
+/* core body styles */
 body {
   font: 15px/1.5 Ariel, Helvetica, sans-serif;
   
@@ -11,7 +11,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Global Styles */
+/**************** Global Styles ****************/
 .container {
   width: 80%;
   margin:auto;
@@ -23,7 +23,15 @@ ul {
   padding: 0;
 }
 
-/* Header */
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border: none; /* removes the default border for buttons */
+  padding: 0 20px 0 20px; /* left and right padding of 20px to the button */
+  color: #fff;
+}
+
+/************* Header *************/
 header {
   background-color: #35424a;
   color: #fff;
@@ -32,7 +40,7 @@ header {
   border-bottom: #e8491d 3px solid;
 }
 
-/* global nav links styling */
+/* styles the a tags in the header section (the nav links) */
 header a{
   color: #fff; /* makes tags white */
   text-decoration: none; /* removes default underlining */  
@@ -73,7 +81,7 @@ header a:hover {
   font-weight: bold;
 }
 
-/* SHOWCASE Section */
+/************ SHOWCASE Section ****************/
 #showcase {
   min-height: 400px; /* important for responsive layout */
   background: url('../images/showcase.jpg') no-repeat 0 -400px;
@@ -92,3 +100,60 @@ header a:hover {
 showcase p {
   font-size: 20px;
 }
+
+/***************** NEWSLETTER Section *****************/
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background:#35424a;
+  border: #e8491d 3px solid;
+}
+
+/* styles h1 in newsletter section */
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  /* moves input box/subscribe down from the top of the section */ 
+  margin-top: 15px;
+}
+
+/* styles the specific input of email */
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/****************** BOXES ***************/
+#boxes {
+  margin-top: 20px;
+}
+
+/* styles each individual box */
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* box icon/logos */
+#boxes .box img {
+  width: 90px;
+  height: auto;
+}
+
+/************* FOOTER **************/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #e8491d; 
+  text-align: center;
+}
+
+
+
