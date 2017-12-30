@@ -35,29 +35,27 @@ header {
 /* global nav links styling */
 header a{
   color: #fff; /* makes tags white */
-  text-decoration: none; /* removes default underlining from link */ 
+  text-decoration: none; /* removes default underlining */  
   text-transform: uppercase;
   font-size: 16px;
 }
 
-/* Styles individual list items 
+/* Styles individual list items in header */
 header li {
-  float: left; /* moves all the list items to the left. */ 
-  display: inline; /* lines the links up horizontally in a line */
-  padding: 0 20px 0 20px;
+  display: inline; /* lines the links up horizontally.*/   padding: 0 20px 0 20px;
 }
 
 /* styles the brand Acme Web Solutions */
 header #branding {
   float: left;
-}
+} 
 
 /* styles the text of the brand */
 header #branding h1 {
   margin: 0;
 }
 
-/* styles the nave section in the header */
+/* styles the nav section */ 
 header nav {
   float: right;
   margin-top: 10px; /* moves the nav links down just a little bit from top of header section */ 
@@ -69,9 +67,28 @@ header .highlight, header .current a {
   font-weight: bold;
 }
 
-/* hover-state for nav menu.
-This styles the a tags when the mouse hovers over them. */
+/* This styles the a tags when the mouse hovers over them. */
 header a:hover {
   color: #ccc;
   font-weight: bold;
+}
+
+/* SHOWCASE Section */
+#showcase {
+  min-height: 400px; /* important for responsive layout */
+  background: url('../images/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: #fff;
+}
+
+/* styles h1 tags in showcase */
+#showcase h1 {
+  margin-top:100px; /* moves h1 text down from the top of the showcase */
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+/* styles p tags in the showcase section */
+showcase p {
+  font-size: 20px;
 }
