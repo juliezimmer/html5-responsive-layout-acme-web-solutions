@@ -34,8 +34,7 @@ ul {
 .dark {
   padding: 15px;
   background: #35424A;
-  opacity: 0.85;
-  color: #FFF;
+  color: #fff;
   margin: 10px 0 10px 0;
 }
 
@@ -58,7 +57,8 @@ header a{
 
 /* Styles individual list items in header */
 header li {
-  display: inline; /* lines the links up horizontally.*/   padding: 0 20px 0 20px;
+  display: inline; /* lines the links up horizontally.*/   
+  padding: 0 20px 0 20px;
 }
 
 /* styles the brand Acme Web Solutions */
@@ -191,5 +191,44 @@ footer {
   text-align: center;
 }
 
+/********** MEDIA QUERIES **********/
+/* this styling is used for screens up to 768px. */ 
+@media(max-width: 768px) {
+  header #branding, 
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none; /* removes float */
+    text-align: center; 
+    width: 100%;
+  }
 
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    /* margin is 100px by default, so it needs to be changed to 40px. */
+    margin-top: 40px;
+  }
+
+  #newsletter button, .quote button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"],
+  .quote input,
+  .quote textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+
+}
 
